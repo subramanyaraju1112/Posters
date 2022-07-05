@@ -1,0 +1,84 @@
+.poster {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.scr {
+    border: 12px;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tagline {
+  margin-top: -2px;
+  color: rgb(71, 71, 71);
+}
+
+.description {
+    color: rgb(71, 71, 71);
+}
+
+.name {
+  margin-bottom: -2px;
+}
+
+.price {
+    margin-right: 20px;
+}
+
+.remove {
+  display: flex;
+  margin-right: 500px;
+  color: rgb(201, 38, 49);
+  cursor: pointer;
+  font-family: "Heebo", sans-serif;
+}
+
+.cart {
+  display: flex;
+  margin: 5px 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: rgb(148, 179, 154);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Heebo", sans-serif;
+}
+
+.checkout {
+  display: flex;
+  margin: 5px 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: rgb(44, 201, 76);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Heebo", sans-serif;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
